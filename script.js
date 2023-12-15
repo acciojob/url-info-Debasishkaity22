@@ -1,9 +1,6 @@
 //your JS code here. If required.
+// let input=prompt();
 let n1;
-let n=function (input){
-	n1=input.length;
-	
-}
-let input=prompt();
-n(input);
+let n=window.location.href;
+	n1=n.length;
 alert("The length of the URL is:"+n1);
